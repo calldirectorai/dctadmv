@@ -523,7 +523,7 @@ ul{list-style:none}
    BACK TO TOP
    ============================================================ */
 .to-top{
-  position:fixed;right:26px;bottom:26px;z-index:50;
+  position:fixed;left:26px;bottom:26px;z-index:50;
   width:46px;height:46px;border-radius:50%;
   border:1px solid rgba(255,255,255,.18);background:var(--blue);color:#fff;
   display:flex;align-items:center;justify-content:center;cursor:pointer;
@@ -535,5 +535,5 @@ ul{list-style:none}
 .to-top:hover{background:var(--blue-deep);transform:translateY(-3px)}
 .to-top:active{transform:translateY(-1px)}
 .to-top svg{width:20px;height:20px}
-@media(max-width:760px){.to-top{right:16px;bottom:16px;width:42px;height:42px}}
+@media(max-width:760px){.to-top{left:16px;bottom:16px;width:42px;height:42px}}
 @media(prefers-reduced-motion:reduce){.to-top{transition:opacity .3s,visibility .3s}.to-top:hover{transform:none}}
